@@ -25,6 +25,7 @@ entities:
     - type: MetaData
       name: unknown
     - type: Transform
+      parent: 402
     - type: MapGrid
       chunks:
         0,0:
@@ -74,18 +75,18 @@ entities:
             color: '#FFFFFFFF'
             id: Arrows
           decals:
-            59: 12,8
+            51: 12,8
         - node:
             angle: 3.141592653589793 rad
             color: '#FFFFFFFF'
             id: Arrows
           decals:
-            60: 12,6
+            52: 12,6
         - node:
             color: '#FF0000FF'
             id: BoxGreyscale
           decals:
-            58: 13,7
+            50: 13,7
         - node:
             color: '#FFFFFFFF'
             id: Caution
@@ -96,137 +97,137 @@ entities:
             color: '#FFFFFFFF'
             id: StandClear
           decals:
-            54: 12,7
+            49: 12,7
         - node:
             color: '#FFFFFFFF'
             id: WarnBox
           decals:
-            18: 3,4
+            13: 3,4
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerSmallNW
           decals:
-            40: 16,-2
+            35: 16,-2
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerSmallSE
           decals:
-            32: 5,7
+            27: 5,7
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerSmallSW
           decals:
-            17: 4,7
+            12: 4,7
         - node:
             color: '#FFFFFFFF'
             id: WarnLineE
           decals:
-            78: 12,-10
-            80: 6,-10
+            66: 12,-10
+            68: 6,-10
         - node:
             color: '#FFFFFFFF'
             id: WarnLineN
           decals:
-            16: 3,7
-            33: 6,7
-            35: 5,7
-            36: 4,7
+            11: 3,7
+            28: 6,7
+            30: 5,7
+            31: 4,7
         - node:
             color: '#FFFFFFFF'
             id: WarnLineS
           decals:
-            34: 7,6
-            37: 16,3
-            38: 16,2
-            39: 16,-1
+            29: 7,6
+            32: 16,3
+            33: 16,2
+            34: 16,-1
         - node:
             color: '#FFFFFFFF'
             id: WarnLineW
           decals:
-            41: 11,-8
-            42: 10,-8
-            43: 7,-9
-            44: 6,-9
-            79: 6,-10
+            36: 11,-8
+            37: 10,-8
+            38: 7,-9
+            39: 6,-9
+            67: 6,-10
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinCornerNe
           decals:
-            45: 12,4
+            40: 12,4
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinCornerNw
           decals:
-            46: 8,4
+            41: 8,4
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinCornerSe
           decals:
-            11: 12,-1
+            6: 12,-1
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinCornerSw
           decals:
-            12: 8,-1
+            7: 8,-1
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinInnerNe
           decals:
-            28: 1,-1
+            23: 1,-1
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinInnerNw
           decals:
-            29: 4,-1
+            24: 4,-1
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinInnerSe
           decals:
-            30: 1,3
+            25: 1,3
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinInnerSw
           decals:
-            31: 4,3
+            26: 4,3
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinLineE
           decals:
-            9: 12,1
-            10: 12,0
-            22: 1,2
-            23: 1,1
-            24: 1,0
-            50: 12,3
-            51: 12,2
+            4: 12,1
+            5: 12,0
+            17: 1,2
+            18: 1,1
+            19: 1,0
+            45: 12,3
+            46: 12,2
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinLineN
           decals:
-            26: 2,-1
-            27: 3,-1
-            47: 9,4
-            48: 10,4
-            49: 11,4
+            21: 2,-1
+            22: 3,-1
+            42: 9,4
+            43: 10,4
+            44: 11,4
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinLineS
           decals:
-            13: 9,-1
-            14: 10,-1
-            15: 11,-1
-            25: 2,3
+            8: 9,-1
+            9: 10,-1
+            10: 11,-1
+            20: 2,3
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinLineW
           decals:
-            3: 8,0
-            4: 8,1
-            19: 4,2
-            20: 4,1
-            21: 4,0
-            52: 8,3
-            53: 8,2
+            2: 8,0
+            3: 8,1
+            14: 4,2
+            15: 4,1
+            16: 4,0
+            47: 8,3
+            48: 8,2
         - node:
             color: '#FF0000FF'
             id: space
@@ -236,67 +237,67 @@ entities:
             color: '#FFFFFFFF'
             id: syndlogo1
           decals:
-            74: 8,8
+            62: 8,8
         - node:
             color: '#FFFFFFFF'
             id: syndlogo10
           decals:
-            67: 9,6
+            57: 9,6
         - node:
             color: '#FFFFFFFF'
             id: syndlogo11
           decals:
-            68: 10,6
+            58: 10,6
         - node:
             color: '#FFFFFFFF'
             id: syndlogo12
           decals:
-            69: 11,6
+            59: 11,6
         - node:
             color: '#FFFFFFFF'
             id: syndlogo13
           decals:
-            77: 10,6
+            65: 10,6
         - node:
             color: '#FFFFFFFF'
             id: syndlogo2
           decals:
-            62: 9,8
+            53: 9,8
         - node:
             color: '#FFFFFFFF'
             id: syndlogo3
           decals:
-            63: 10,8
+            54: 10,8
         - node:
             color: '#FFFFFFFF'
             id: syndlogo4
           decals:
-            73: 11,8
+            61: 11,8
         - node:
             color: '#FFFFFFFF'
             id: syndlogo5
           decals:
-            75: 8,7
+            63: 8,7
         - node:
             color: '#FFFFFFFF'
             id: syndlogo6
           decals:
-            64: 9,7
+            55: 9,7
         - node:
             color: '#FFFFFFFF'
             id: syndlogo7
           decals:
-            65: 10,7
+            56: 10,7
         - node:
             color: '#FFFFFFFF'
             id: syndlogo8
           decals:
-            72: 11,7
+            60: 11,7
         - node:
             color: '#FFFFFFFF'
             id: syndlogo9
           decals:
-            76: 8,6
+            64: 8,6
     - type: GridAtmosphere
       version: 2
       data:
@@ -442,6 +443,18 @@ entities:
     - type: RadiationGridResistance
     - type: Shuttle
     - type: NavMap
+  - uid: 402
+    components:
+    - type: MetaData
+      name: Map Entity
+    - type: Transform
+    - type: Map
+      mapPaused: True
+    - type: PhysicsMap
+    - type: GridTree
+    - type: MovedGrids
+    - type: Broadphase
+    - type: OccluderTree
 - proto: AirAlarm
   entities:
   - uid: 576
@@ -2202,20 +2215,8 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 8.5,-5.5
       parent: 1
-  - uid: 541
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 12.5,3.5
-      parent: 1
 - proto: BenchSofaCorpRight
   entities:
-  - uid: 402
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 12.5,4.5
-      parent: 1
   - uid: 404
     components:
     - type: Transform
@@ -3305,15 +3306,19 @@ entities:
   - uid: 549
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 12.464487,4.225065
+      pos: 8.6867075,2.0133429
       parent: 1
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
   - uid: 578
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 12.464487,3.6313155
+      pos: 8.3117075,2.0133429
       parent: 1
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
 - proto: ClothingUniformJumpsuitPyjamaSyndicateBlack
   entities:
   - uid: 392
@@ -3385,6 +3390,12 @@ entities:
     - type: Transform
       pos: 1.5,2.5
       parent: 1
+  - uid: 1007
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 12.5,4.5
+      parent: 1
 - proto: ComputerCrewMonitoring
   entities:
   - uid: 548
@@ -3393,6 +3404,16 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 12.5,0.5
       parent: 1
+- proto: ComputerIFFSyndicate
+  entities:
+  - uid: 541
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 12.5,3.5
+      parent: 1
+    - type: IFFConsole
+      allowedFlags: HideLabel
 - proto: ComputerMassMedia
   entities:
   - uid: 311
@@ -5689,7 +5710,7 @@ entities:
       rot: 6.283185307179586 rad
       pos: -1.5109272,-2.2405348
       parent: 1
-- proto: soda_dispenser
+- proto: SodaDispenser
   entities:
   - uid: 810
     components:
@@ -5776,9 +5797,8 @@ entities:
       pos: 8.5,3.5
       parent: 1
     - type: CommunicationsConsole
-      color: gold
-      title: "Pirate Broadcast"
-      canShuttle: false
+      color: '#FFD700FF'
+      title: Pirate Broadcast
 - proto: SyndicateMonitoringServer
   entities:
   - uid: 338
